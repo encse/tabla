@@ -1,0 +1,22 @@
+<html>
+<head>
+<script src="node_modules/openseadragon/build/openseadragon/openseadragon.min.js"></script>
+<style>
+	html {
+		background:white;
+	}
+</style>
+</head>
+<body>
+<div id="contentDiv"></div>
+<script type="text/javascript">
+    // Example
+    OpenSeadragon({
+        id:              "contentDiv",
+        prefixUrl:       "node_modules/openseadragon/build//openseadragon/images/",
+        tileSources:     "./dzc_output.xml"
+    });
+</script>
+
+</body>
+</html>
